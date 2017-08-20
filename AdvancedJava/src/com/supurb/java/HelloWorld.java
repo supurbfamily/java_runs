@@ -16,6 +16,8 @@ public class HelloWorld {
 		System.out.println("hello world ... this is my first file commit to git");
 		Logger myLogger =  Logger.getLogger("Subhojit's Logger");
 		myLogger.log(Level.INFO, "THis is my first calss with a logger in Git branch");
+		System.out.println("Wow! it worked.");
+		
 	}
 
 }
