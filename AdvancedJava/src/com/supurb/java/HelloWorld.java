@@ -17,6 +17,7 @@ public class HelloWorld {
 		Logger myLogger =  Logger.getLogger("Subhojit's Logger");
 		myLogger.log(Level.INFO, "THis is my first calss with a logger in Git branch");
 		System.out.println("Wow! it worked.");
+		System.out.println("This should not be in the main, but in the branch");
 		
 	}
 
