@@ -18,10 +18,10 @@ public class HelloWorld {
 		myLogger.log(Level.INFO, "THis is my first calss with a logger in Git branch");
 		System.out.println("Wow! it worked.");
 		System.out.println("This should not be in the main, but in the branch");
+		System.out.println("One more time ... fixed config");
+		/* Lets see where it goes */
 		System.out.println("This goes to master");
 		/* this is the real test now that I have setup the local bracnhes appropriately and mapeed them to git */
-		
-		
 	}
 
 }
