@@ -15,7 +15,7 @@ public class InitBlocks {
 	
 	public InitBlocks()
 	{
-		System.out.println("Printing from comstructor");
+		System.out.println("Printing from constructor");
 	}
 	
 	// this is an init block - 2
