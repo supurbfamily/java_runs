@@ -13,6 +13,7 @@ public class InitBlocks {
 		System.out.println("Printing from Init block - 1");
 	}
 	
+	// Constructor
 	public InitBlocks()
 	{
 		System.out.println("Printing from constructor");

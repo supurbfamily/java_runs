@@ -15,6 +15,12 @@ public class HelloWorld {
 		InitializationWithDefaults myInitializationWithDefaults = new InitializationWithDefaults();
 		System.out.println(myInitBlocks.toString());
 		System.out.println(myInitializationWithDefaults.toString());
+		for(int i =0;i<4;i++) {
+			@SuppressWarnings("unused")
+			Object o = new StaticInitializationBlocks();
+			
+		}
+	
 	}
 
 }
