@@ -54,6 +54,7 @@ public class SimpleFactory {
 			this.model = vtype.getModel();
 		}
 		
+		@Override
 		public String toString()
 		{
 			return this.getClass().getCanonicalName() + "|" + getName() + "|" + getMake() + "|" + getModel();

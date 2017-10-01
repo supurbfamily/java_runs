@@ -85,6 +85,7 @@ public class FactoryOCP {
 		public abstract int getMake();
 		public abstract String getModel();
 		
+		@Override
 		public String toString()
 		{
 			return this.getClass().getCanonicalName() + "|" + getName() + "|" + getMake() + "|" + getModel();
