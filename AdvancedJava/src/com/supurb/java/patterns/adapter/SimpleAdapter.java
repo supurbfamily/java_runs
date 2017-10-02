@@ -4,7 +4,6 @@
 package com.supurb.java.patterns.adapter;
 
 import java.util.Calendar;
-import java.util.Date;
 
 /**
  * @author Subhojit

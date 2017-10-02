@@ -119,6 +119,7 @@ public class NewPaymentTransationAdapter implements NewPay{
 		return this.expirationMonth;
 	}
 	
+	@Override
 	public String toString() {
 		return getCardType().toString() + "|" +
 				getExpirationMonthYear4Digits() + "|" +

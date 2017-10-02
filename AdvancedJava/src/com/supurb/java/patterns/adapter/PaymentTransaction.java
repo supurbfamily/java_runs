@@ -102,6 +102,7 @@ public class PaymentTransaction implements OldPay{
 	}
 	
 	
+	@Override
 	public String toString() {
 		return getCardType().toString() + "|" +
 				getExpirationMonth() + "|" +
