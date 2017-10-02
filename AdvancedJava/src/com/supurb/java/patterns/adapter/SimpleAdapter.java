@@ -28,20 +28,20 @@ public class SimpleAdapter {
 		// TODO Auto-generated method stub
 		// create new transaction
 		
-		PaymentTransaction pt = new PaymentTransaction();
-		pt.setCardType(CardType.VISA);
-		pt.setAmount((float)100.00);
-		pt.setExpirationMonth(12);
-		pt.setExpirationYear(2050);
-		pt.setTransactionDate(Calendar.getInstance().getTime());
-		if (pt.validateTransaction())
+		OldPay oP = new PaymentTransaction();
+		oP.setCardType(CardType.VISA);
+		oP.setAmount((float)100.00);
+		oP.setExpirationMonth(12);
+		oP.setExpirationYear(2050);
+		oP.setTransactionDate(Calendar.getInstance().getTime());
+		if (oP.validateTransaction())
 		{
-			System.out.println(pt);
+			System.out.println(oP);
 		}
 		
 		// now lets use the new paytype using the old 
 		
-		NewPay  np = new NewPaymentTransationAdapter(pt);
+		NewPay  np = new NewPaymentTransationAdapter(oP);
 		System.out.println("New style");
 		System.out.println(np);
 	}
